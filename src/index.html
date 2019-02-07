@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>TEST</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body class="text-center">
+	<div id="fail" class="alert alert--danger" role="alert"> Dig ite seu email e senha </div>
+	<div id="success" class="alert alert--success" role="alert"> Voce foi logado com sucesso </div>
+
+	<section>
+		<form class="form">
+			<h1 class="h6 mb-3 font-weight-bold form__title">Entrar na minha conta</h1>
+			<input type="email" id="inputEmail" class="form-control form__input form__input--email" placeholder="Email" autofocus="">
+			<input type="password" id="inputPassword" class="form-control form__input form__input--pass" placeholder="Senha">
+			<button id="submit" class="form__button" type="submit">Entrar</button>
+			<div class="form__checkbox mb-3">
+				<label>
+					<input type="checkbox" class="form__checkbox__input" value="remember-me"> Mantenha-me conectado
+			</div>
+		</form>
+		<div class="info">
+			<p class="info__text">Precisa de uma conta? <a href="">Inscrever-se</a></p>	
+			<p class="info__text info__text--small">Esqueceu sua senha? <a href="">clique aqui</a></p>	
+		</div>
+
+		<div class="infoCompany">
+			<div class="infoCompany__icon">i</div>
+			<div class="infoCompany__text"><i>Keyrus</i></div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+	<script src="./js/main.js"></script>
+</body>
+</html>
